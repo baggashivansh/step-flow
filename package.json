@@ -1,0 +1,34 @@
+{
+  "name": "step-flow",
+  "description": "Beginner-friendly async task processing backend built with Motia Steps",
+  "type": "module",
+  "scripts": {
+    "dev": "motia dev",
+    "start": "motia start",
+    "generate-types": "motia generate-types",
+    "build": "motia build",
+    "clean": "rm -rf dist node_modules python_modules .motia .mermaid"
+  },
+  "keywords": [
+    "motia",
+    "backend",
+    "steps",
+    "async"
+  ],
+  "dependencies": {
+    "@motiadev/core": "0.17.9-beta.191",
+    "@motiadev/plugin-endpoint": "0.17.9-beta.191",
+    "@motiadev/plugin-logs": "0.17.9-beta.191",
+    "@motiadev/plugin-observability": "0.17.9-beta.191",
+    "@motiadev/plugin-states": "0.17.9-beta.191",
+    "motia": "0.17.9-beta.191",
+    "zod": "4.1.12"
+  },
+  "devDependencies": {
+    "@motiadev/workbench": "0.17.9-beta.191",
+    "@types/react": "19.1.1",
+    "ts-node": "10.9.2",
+    "typescript": "5.7.3"
+  }
+}
+
