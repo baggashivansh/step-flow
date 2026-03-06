@@ -3,6 +3,8 @@
 **StepFlow** is a beginner-friendly backend project built with **Motia** that demonstrates how APIs and background jobs can be unified using a single backend primitive: **Steps**.
 
 ---
+⭐ Featured in the community projects showcase.
+---
 
 ## 🚨 Problem
 
